@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+
+// Route::get('/insert',function(){
+//     return view('insert');
+// });
+
+Route::view("/insert","insert");
