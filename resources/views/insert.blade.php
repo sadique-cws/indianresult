@@ -6,7 +6,7 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-6 mx-auto">
-                <form action="" method="POST">
+            <form action="{{route('insert')}}" method="POST">
                     @csrf
                     <div class="mb-3">
                         <label for="">Name</label>
